@@ -8,14 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Mar 2022 16:13:25 +0530</lastBuildDate><atom:link href="https://vishnusanal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hey There</title>
+      <title>You&#39;re Awesome :)</title>
       <link>https://vishnusanal.github.io/posts/hey-there/</link>
       <pubDate>Thu, 10 Mar 2022 16:13:25 +0530</pubDate>
       
       <guid>https://vishnusanal.github.io/posts/hey-there/</guid>
-      <description>You&amp;rsquo;re Awesome :) </description>
-      <content>&lt;h1 id=&#34;youre-awesome-&#34;&gt;You&amp;rsquo;re Awesome :)&lt;/h1&gt;
-</content>
+      <description>throw new java.lang.UnsupportedOperationException(&amp;#34;Not yet implemented&amp;#34;); </description>
+      <content>&lt;!-- raw HTML omitted --&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;throw new java.lang.UnsupportedOperationException(&amp;#34;Not yet implemented&amp;#34;);
+&lt;/code&gt;&lt;/pre&gt;</content>
     </item>
     
   </channel>
