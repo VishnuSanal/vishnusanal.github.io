@@ -1,6 +1,6 @@
 baseURL = 'https://vishnusanal.github.io/'
 languageCode = 'en-us'
-title = 'Vishnu Sanal. T'
+title = 'Vishnu Sanal T'
 theme = "terminal"
 publishDir = "docs"
 
