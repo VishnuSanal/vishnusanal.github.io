@@ -1,14 +1,15 @@
 +++
 title = "You're Awesome :)"
 date = "2022-03-10T16:13:25+05:30"
-author = ""
-authorTwitter = "" #do not include @
+author = "Vishnu Sanal T"
+authorTwitter = "VishnuSanalT"
 cover = ""
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
-showFullContent = false
-readingTime = false
+showFullContent = true
+readingTime = true
+draft = true
 +++
 
 <!-- # You're Awesome :) -->
