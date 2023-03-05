@@ -23,8 +23,7 @@ What I used to do looked like this:
 &lt;p&gt;How do you convert a binary number to a decimal?&lt;/p&gt;
 &lt;p&gt;Say, &lt;code&gt;1011001110010001&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;What I used to do looked like this:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
-1 * 2 ^ 0 +
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1 * 2 ^ 0 +
 0 * 2 ^ 1 +
 0 * 2 ^ 2 +
 0 * 2 ^ 3 +
@@ -84,7 +83,7 @@ result: [0 0 0 1 0 1 0 1] # decimal: 21 (i. e, 20 + 1)
 &lt;li&gt;1100100110&lt;/li&gt;
 &lt;li&gt;010101001101&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A massive shout-out to Prof. Soni for sharing this little hack with us! If you found this useful, share it with some computer science enthusiasts or flex this trick in your next class!&lt;/p&gt;
+&lt;p&gt;A massive shout-out to Prof. Soni for sharing this little hack with us! If you found this useful, share it with some computer science enthusiasts or flex this trick in your next class! Or if you&amp;rsquo;re just surfing around here, drop me a message - I love talking to new people :) You can find me &lt;a href=&#34;https://github.com/VishnuSanal&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/VishnuSanalT&#34;&gt;here&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.linkedin.com/in/vishnu-sanal-t/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
     </item>
     

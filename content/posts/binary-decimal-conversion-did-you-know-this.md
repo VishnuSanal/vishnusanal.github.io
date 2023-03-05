@@ -22,7 +22,6 @@ Say, `1011001110010001`:
 What I used to do looked like this:
 
 ```
-
 1 * 2 ^ 0 +
 0 * 2 ^ 1 +
 0 * 2 ^ 2 +
@@ -39,7 +38,6 @@ What I used to do looked like this:
 1 * 2 ^ 13 +
 0 * 2 ^ 14 +
 1 * 2 ^ 15
-
 ```
 
 Mostly it ends in me making some mistakes & I find myself starting over!
@@ -54,7 +52,6 @@ Before that, let me remind you about the shift operations we all have studied in
     [0 0 0 1 0 1 0] <- [0]
 
 result: [0 0 0 1 0 1 0 0] # decimal: 20
-
 ```
 
 So, a logical left shift results in the number getting doubled. i. e, when the digit `0` is concatenated to the end of a binary sequence, its decimal equivalent essentially gets doubled.
@@ -67,7 +64,6 @@ PS: stop here & guess what happens when the digit `1` is concatenated to the rig
     [0 0 0 1 0 1 0] <- [1]
 
 result: [0 0 0 1 0 1 0 1] # decimal: 21 (i. e, 20 + 1)
-
 ```
 
 ## So, we learnt, a binary sequence `x` when concatenated with:
@@ -75,8 +71,6 @@ result: [0 0 0 1 0 1 0 1] # decimal: 21 (i. e, 20 + 1)
 ```
     0: would result in 2x
     1: would result in 2x + 1
-
-
 ```
 
 Now, let us get into action!!
@@ -112,4 +106,4 @@ Well, see how easy it is! You can use the following binary numbers to practice:
   - 1100100110
   - 010101001101
 
-A massive shout-out to Prof. Soni for sharing this little hack with us! If you found this useful, share it with some computer science enthusiasts or flex this trick in your next class!
+A massive shout-out to Prof. Soni for sharing this little hack with us! If you found this useful, share it with some computer science enthusiasts or flex this trick in your next class! Or if you're just surfing around here, drop me a message - I love talking to new people :) You can find me [here](https://github.com/VishnuSanal), [here](https://twitter.com/VishnuSanalT) & [here](https://www.linkedin.com/in/vishnu-sanal-t/).
