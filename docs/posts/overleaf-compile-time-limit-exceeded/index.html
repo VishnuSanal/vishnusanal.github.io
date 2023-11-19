@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Timed out on OverLeaf? Don&#39;t worry, try this! :: You&#39;re Awesome :)</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to workaround compile time exceeded on OverLeaf" />
+<meta name="keywords" content="overleaf, timed-out, ppt, beamer, latex" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/" />
+
+
+
+
+<link rel="stylesheet" href="https://vishnusanal.github.io/assets/style.css">
+
+  <link rel="stylesheet" href="assets/%25!s%28%3cnil%3e%29.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="https://vishnusanal.github.io/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://vishnusanal.github.io/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Timed out on OverLeaf? Don&#39;t worry, try this!">
+<meta property="og:description" content="How to workaround compile time exceeded on OverLeaf" />
+<meta property="og:url" content="https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/" />
+<meta property="og:site_name" content="You&#39;re Awesome :)" />
+
+  <meta property="og:image" content="https://vishnusanal.github.io/images/overleaf_timed_out_short.png">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2023-11-19 10:16:27 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://vishnusanal.github.io/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/">Timed out on OverLeaf? Don&rsquo;t worry, try this!</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2023-11-19
+        
+      </span>
+    
+    
+      <span class="post-author">:: Vishnu Sanal T</span>
+    
+    
+      <span class="post-reading-time">:: 2 min read (370 words)</span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://vishnusanal.github.io/tags/"></a>&nbsp;
+    
+    #<a href="https://vishnusanal.github.io/tags/"></a>&nbsp;
+    
+  </span>
+  
+  
+  <img src="https://vishnusanal.github.io/images/overleaf_timed_out_short.png"
+    class="post-cover"
+    alt="Timed out on OverLeaf? Don&#39;t worry, try this!"
+    title="Cover Image" />
+
+
+  
+
+  <div class="post-content"><div>
+        <h2 id="what-are-we-up-to-here">What are we up to here?<a href="#what-are-we-up-to-here" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>So, you finally decide to work on that document you’ve been putting off for three months, or you want to work on that PPT that is due tomorrow! You grab your tools, open all the resources in 1500 Chrome tabs, and copy pasta everything onto your OverLeaf template. All is well for the first part or so, then you get a warning, and boom, suddenly OverLeaf says it won’t compile anymore! You try compressing your images and shortening the content, only to discover that none of these work. :(</p>
+<p>Here’s a lil hack to get you around this dilemma, hang tight! :)</p>
+<p>Here, I am going to use the <a href="https://www.overleaf.com/latex/templates/ritsumeikan-university-theme-beamer-template/jmfcqqptxjxk">Ritsumeikan University Theme Beamer Template</a> for demonstration.</p>
+<p>Say I have 50 slides, and I can compile 35 pages before reaching the limit.</p>
+<p>An obvious solution would be to compile the first half as a project, compile the other half as another project, and merge them both. But this raises the concern of not getting continuous page numbers, page indicators on top, etc. ;__;</p>
+<p>What next?</p>
+<h2 id="the-solution">The solution!<a href="#the-solution" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>Create a new project with all the sections and headings, but don&rsquo;t add the content yet, keep the pages empty.</li>
+<li>Create a duplicate of this project</li>
+<li>Start adding content to the first project, page by page, compiling at each step.</li>
+<li>Say, OverLeaf starts giving TLE on the 20th page.</li>
+<li>Now, start adding content to the newly created project from the 21st page.</li>
+<li>Voilà! Now you just have to export both of these projects to PDF &amp; merge them together! There you have a PPT with whole content &amp; continuous page indicators!</li>
+</ul>
+<h2 id="additional-tips">Additional tips<a href="#additional-tips" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>Always compress images, graphs etc (I use <a href="https://compresspng.com/">compresspng.com</a>)</li>
+<li>Try to reduce the use of <em>stepwise alerts</em></li>
+</ul>
+<h2 id="conclusion">Conclusion<a href="#conclusion" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>I showed you a trick for assembling massive projects on OverLeaf without paying for the service. Shout-outs to my classmates Salu, Shidul, Akash, and Ayush for giving me ideas to write this post. If you found this useful, share it with someone struggling with OverLeaf! Any more tips to add? Ping me! Or, if you&rsquo;re just surfing around here, let&rsquo;s get connected. I love talking to new people. :) You can find me on <a href="https://github.com/VishnuSanal">GitHub</a>, <a href="https://twitter.com/VishnuSanalT">Twitter</a>, and <a href="https://www.linkedin.com/in/vishnu-sanal-t/">LinkedIn</a>.</p>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2023 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://vishnusanal.github.io/assets/main.js"></script>
+<script src="https://vishnusanal.github.io/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vishnu Sanal T</title>
+    <title>You&#39;re Awesome :)</title>
     <link>https://vishnusanal.github.io/</link>
-    <description>Recent content on Vishnu Sanal T</description>
+    <description>Recent content on You&#39;re Awesome :)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Dec 2022 12:37:26 +0530</lastBuildDate><atom:link href="https://vishnusanal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 10:16:27 +0530</lastBuildDate><atom:link href="https://vishnusanal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Timed out on OverLeaf? Don&#39;t worry, try this!</title>
+      <link>https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/</link>
+      <pubDate>Sun, 19 Nov 2023 10:16:27 +0530</pubDate>
+      
+      <guid>https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/</guid>
+      <description>What are we up to here? So, you finally decide to work on that document you’ve been putting off for three months, or you want to work on that PPT that is due tomorrow! You grab your tools, open all the resources in 1500 Chrome tabs, and copy pasta everything onto your OverLeaf template. All is well for the first part or so, then you get a warning, and boom, suddenly OverLeaf says it won’t compile anymore!</description>
+      <content>&lt;h2 id=&#34;what-are-we-up-to-here&#34;&gt;What are we up to here?&lt;/h2&gt;
+&lt;p&gt;So, you finally decide to work on that document you’ve been putting off for three months, or you want to work on that PPT that is due tomorrow! You grab your tools, open all the resources in 1500 Chrome tabs, and copy pasta everything onto your OverLeaf template. All is well for the first part or so, then you get a warning, and boom, suddenly OverLeaf says it won’t compile anymore! You try compressing your images and shortening the content, only to discover that none of these work. :(&lt;/p&gt;
+&lt;p&gt;Here’s a lil hack to get you around this dilemma, hang tight! :)&lt;/p&gt;
+&lt;p&gt;Here, I am going to use the &lt;a href=&#34;https://www.overleaf.com/latex/templates/ritsumeikan-university-theme-beamer-template/jmfcqqptxjxk&#34;&gt;Ritsumeikan University Theme Beamer Template&lt;/a&gt; for demonstration.&lt;/p&gt;
+&lt;p&gt;Say I have 50 slides, and I can compile 35 pages before reaching the limit.&lt;/p&gt;
+&lt;p&gt;An obvious solution would be to compile the first half as a project, compile the other half as another project, and merge them both. But this raises the concern of not getting continuous page numbers, page indicators on top, etc. ;__;&lt;/p&gt;
+&lt;p&gt;What next?&lt;/p&gt;
+&lt;h2 id=&#34;the-solution&#34;&gt;The solution!&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new project with all the sections and headings, but don&amp;rsquo;t add the content yet, keep the pages empty.&lt;/li&gt;
+&lt;li&gt;Create a duplicate of this project&lt;/li&gt;
+&lt;li&gt;Start adding content to the first project, page by page, compiling at each step.&lt;/li&gt;
+&lt;li&gt;Say, OverLeaf starts giving TLE on the 20th page.&lt;/li&gt;
+&lt;li&gt;Now, start adding content to the newly created project from the 21st page.&lt;/li&gt;
+&lt;li&gt;Voilà! Now you just have to export both of these projects to PDF &amp;amp; merge them together! There you have a PPT with whole content &amp;amp; continuous page indicators!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-tips&#34;&gt;Additional tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Always compress images, graphs etc (I use &lt;a href=&#34;https://compresspng.com/&#34;&gt;compresspng.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Try to reduce the use of &lt;em&gt;stepwise alerts&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I showed you a trick for assembling massive projects on OverLeaf without paying for the service. Shout-outs to my classmates Salu, Shidul, Akash, and Ayush for giving me ideas to write this post. If you found this useful, share it with someone struggling with OverLeaf! Any more tips to add? Ping me! Or, if you&amp;rsquo;re just surfing around here, let&amp;rsquo;s get connected. I love talking to new people. :) You can find me on &lt;a href=&#34;https://github.com/VishnuSanal&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/VishnuSanalT&#34;&gt;Twitter&lt;/a&gt;, and &lt;a href=&#34;https://www.linkedin.com/in/vishnu-sanal-t/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Binary to Decimal Conversion - Did You Know This?</title>
       <link>https://vishnusanal.github.io/posts/binary-decimal-conversion-did-you-know-this/</link>
