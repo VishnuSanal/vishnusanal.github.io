@@ -5,8 +5,6 @@ author: "Vishnu Sanal T"
 tags: ["", ""]
 keywords: ["", ""]
 description: ""
-showFullContent: false
-readingTime: false
 draft: true
 ---
 
