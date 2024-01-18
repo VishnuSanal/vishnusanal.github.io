@@ -6,119 +6,21 @@
     <description>Recent content on You&#39;re Awesome :)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Nov 2023 10:16:27 +0530</lastBuildDate><atom:link href="https://vishnusanal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 10:16:27 +0530</lastBuildDate>
+    <atom:link href="https://vishnusanal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Timed out on OverLeaf? Don&#39;t worry, try this!</title>
       <link>https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/</link>
       <pubDate>Sun, 19 Nov 2023 10:16:27 +0530</pubDate>
-      
       <guid>https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/</guid>
-      <description>What are we up to here? So, you finally decide to work on that document you’ve been putting off for three months, or you want to work on that PPT that is due tomorrow! You grab your tools, open all the resources in 1500 Chrome tabs, and copy pasta everything onto your OverLeaf template. All is well for the first part or so, then you get a warning, and boom, suddenly OverLeaf says it won’t compile anymore!</description>
-      <content>&lt;h2 id=&#34;what-are-we-up-to-here&#34;&gt;What are we up to here?&lt;/h2&gt;
-&lt;p&gt;So, you finally decide to work on that document you’ve been putting off for three months, or you want to work on that PPT that is due tomorrow! You grab your tools, open all the resources in 1500 Chrome tabs, and copy pasta everything onto your OverLeaf template. All is well for the first part or so, then you get a warning, and boom, suddenly OverLeaf says it won’t compile anymore! You try compressing your images and shortening the content, only to discover that none of these work. :(&lt;/p&gt;
-&lt;p&gt;Here’s a lil hack to get you around this dilemma, hang tight! :)&lt;/p&gt;
-&lt;p&gt;Here, I am going to use the &lt;a href=&#34;https://www.overleaf.com/latex/templates/ritsumeikan-university-theme-beamer-template/jmfcqqptxjxk&#34;&gt;Ritsumeikan University Theme Beamer Template&lt;/a&gt; for demonstration.&lt;/p&gt;
-&lt;p&gt;Say I have 50 slides, and I can compile 35 pages before reaching the limit.&lt;/p&gt;
-&lt;p&gt;An obvious solution would be to compile the first half as a project, compile the other half as another project, and merge them both. But this raises the concern of not getting continuous page numbers, page indicators on top, etc. ;__;&lt;/p&gt;
-&lt;p&gt;What next?&lt;/p&gt;
-&lt;h2 id=&#34;the-solution&#34;&gt;The solution!&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a new project with all the sections and headings, but don&amp;rsquo;t add the content yet, keep the pages empty.&lt;/li&gt;
-&lt;li&gt;Create a duplicate of this project&lt;/li&gt;
-&lt;li&gt;Start adding content to the first project, page by page, compiling at each step.&lt;/li&gt;
-&lt;li&gt;Say, OverLeaf starts giving TLE on the 20th page.&lt;/li&gt;
-&lt;li&gt;Now, start adding content to the newly created project from the 21st page.&lt;/li&gt;
-&lt;li&gt;Voilà! Now you just have to export both of these projects to PDF &amp;amp; merge them together! There you have a PPT with whole content &amp;amp; continuous page indicators!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;additional-tips&#34;&gt;Additional tips&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Always compress images, graphs etc (I use &lt;a href=&#34;https://compresspng.com/&#34;&gt;compresspng.com&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Try to reduce the use of &lt;em&gt;stepwise alerts&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;I showed you a trick for assembling massive projects on OverLeaf without paying for the service. Shout-outs to my classmates Salu, Shidul, Akash, and Ayush for giving me ideas to write this post. If you found this useful, share it with someone struggling with OverLeaf! Any more tips to add? Ping me! Or, if you&amp;rsquo;re just surfing around here, let&amp;rsquo;s get connected. I love talking to new people. :) You can find me on &lt;a href=&#34;https://github.com/VishnuSanal&#34;&gt;GitHub&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/VishnuSanalT&#34;&gt;Twitter&lt;/a&gt;, and &lt;a href=&#34;https://www.linkedin.com/in/vishnu-sanal-t/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
-</content>
+      <description>How to workaround compile time exceeded on OverLeaf</description>
     </item>
-    
     <item>
       <title>Binary to Decimal Conversion - Did You Know This?</title>
       <link>https://vishnusanal.github.io/posts/binary-decimal-conversion-did-you-know-this/</link>
       <pubDate>Sun, 18 Dec 2022 12:37:26 +0530</pubDate>
-      
       <guid>https://vishnusanal.github.io/posts/binary-decimal-conversion-did-you-know-this/</guid>
-      <description>Binary to Decimal Conversion - Did You Know This? Hi!
-How do you convert a binary number to a decimal?
-Say, 1011001110010001:
-What I used to do looked like this:
-1 * 2 ^ 0 + 0 * 2 ^ 1 + 0 * 2 ^ 2 + 0 * 2 ^ 3 + 1 * 2 ^ 4 + 0 * 2 ^ 5 + 0 * 2 ^ 6 + 1 * 2 ^ 7 + 1 * 2 ^ 8 + 1 * 2 ^ 9 + 0 * 2 ^ 10 + 0 * 2 ^ 11 + 1 * 2 ^ 12 + 1 * 2 ^ 13 + 0 * 2 ^ 14 + 1 * 2 ^ 15 Mostly it ends in me making some mistakes &amp;amp; I find myself starting over!</description>
-      <content>&lt;h1 id=&#34;binary-to-decimal-conversion---did-you-know-this&#34;&gt;Binary to Decimal Conversion - Did You Know This?&lt;/h1&gt;
-&lt;p&gt;Hi!&lt;/p&gt;
-&lt;p&gt;How do you convert a binary number to a decimal?&lt;/p&gt;
-&lt;p&gt;Say, &lt;code&gt;1011001110010001&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;What I used to do looked like this:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1 * 2 ^ 0 +
-0 * 2 ^ 1 +
-0 * 2 ^ 2 +
-0 * 2 ^ 3 +
-1 * 2 ^ 4 +
-0 * 2 ^ 5 +
-0 * 2 ^ 6 +
-1 * 2 ^ 7 +
-1 * 2 ^ 8 +
-1 * 2 ^ 9 +
-0 * 2 ^ 10 +
-0 * 2 ^ 11 +
-1 * 2 ^ 12 +
-1 * 2 ^ 13 +
-0 * 2 ^ 14 +
-1 * 2 ^ 15
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Mostly it ends in me making some mistakes &amp;amp; I find myself starting over!&lt;/p&gt;
-&lt;p&gt;Well, now I&amp;rsquo;ll show you how to do it quickly.&lt;/p&gt;
-&lt;p&gt;Before that, let me remind you about the shift operations we all have studied in our classes. What happens when we perform a logical right shift?&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    [0 0 0 0 1 0 1 0] # decimal: 10
-      / / / / / / /
-    [0 0 0 1 0 1 0] &amp;lt;- [0]
-
-result: [0 0 0 1 0 1 0 0] # decimal: 20
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;So, a logical left shift results in the number getting doubled. i. e, when the digit &lt;code&gt;0&lt;/code&gt; is concatenated to the end of a binary sequence, its decimal equivalent essentially gets doubled.&lt;/p&gt;
-&lt;p&gt;PS: stop here &amp;amp; guess what happens when the digit &lt;code&gt;1&lt;/code&gt; is concatenated to the right end of a binary sequence! :)&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    [0 0 0 0 1 0 1 0] # decimal: 10
-      / / / / / / /
-    [0 0 0 1 0 1 0] &amp;lt;- [1]
-
-result: [0 0 0 1 0 1 0 1] # decimal: 21 (i. e, 20 + 1)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;so-we-learnt-a-binary-sequence-x-when-concatenated-with&#34;&gt;So, we learnt, a binary sequence &lt;code&gt;x&lt;/code&gt; when concatenated with:&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    0: would result in 2x
-    1: would result in 2x + 1
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, let us get into action!!&lt;/p&gt;
-&lt;p&gt;We were converting &lt;code&gt;1011001110010001&lt;/code&gt; to decimal:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;1011001110010001&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Starting with the first &lt;code&gt;1&lt;/code&gt; and traversing from left to right, we get:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;                encountered: 1 =&amp;gt; 1
-                encountered: 0 =&amp;gt; 2            # 2x (2 * 1)
-                encountered: 1 =&amp;gt; 5            # 2x + 1 (2 * 2 + 1)
-                encountered: 1 =&amp;gt; 11           # 2x + 1 (2 * 5 + 1)
-                encountered: 0 =&amp;gt; 22           # 2x (2 * 11)
-                encountered: 0 =&amp;gt; 44           # 2x (2 * 22)
-                encountered: 1 =&amp;gt; 89           # 2x + 1 (2 * 44 + 1)
-                encountered: 1 =&amp;gt; 179          # 2x + 1 (2 * 89 + 1)
-                encountered: 1 =&amp;gt; 359          # 2x + 1 (2 * 179 + 1)
-                encountered: 0 =&amp;gt; 718          # 2x (2 * 359)
-                encountered: 0 =&amp;gt; 1436         # 2x (2 * 718)
-                encountered: 1 =&amp;gt; 2873         # 2x + 1 (2 * 1436 + 1)
-                encountered: 0 =&amp;gt; 5746         # 2x (2 * 2873)
-                encountered: 0 =&amp;gt; 11492        # 2x (2 * 5746)
-                encountered: 0 =&amp;gt; 22984        # 2x (2 * 11492)
-                encountered: 1 =&amp;gt; 45969        # 2x + 1 (2 * 22984 + 1)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Well, see how easy it is! You can use the following binary numbers to practice:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;10101000&lt;/li&gt;
-&lt;li&gt;1100100110&lt;/li&gt;
-&lt;li&gt;010101001101&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A massive shout-out to Prof. Soni for sharing this little hack with us! If you found this useful, share it with some computer science enthusiasts or flex this trick in your next class! Or if you&amp;rsquo;re just surfing around here, drop me a message - I love talking to new people :) You can find me &lt;a href=&#34;https://github.com/VishnuSanal&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/VishnuSanalT&#34;&gt;here&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.linkedin.com/in/vishnu-sanal-t/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
+      <description>An easier way to convert a binary number to decimal</description>
     </item>
-    
   </channel>
 </rss>

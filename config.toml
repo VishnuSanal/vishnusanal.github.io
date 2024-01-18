@@ -1,6 +1,0 @@
-baseURL = 'https://vishnusanal.github.io/'
-languageCode = 'en-us'
-title = "You're Awesome :)"
-theme = "terminal"
-publishDir = "docs"
-

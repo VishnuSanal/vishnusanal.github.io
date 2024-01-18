@@ -1,0 +1,62 @@
+baseURL: "https://vishnusanal.github.io/"
+languageCode: en-us
+title: You're Awesome :)
+theme: "PaperMod"
+publishDir: "docs"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: You're Awesome :)
+  description: You're Awesome :)
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Vishnu Sanal T
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "whatsapp", "telegram"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: "You're Awesome :)"
+    Content: ... and I'm Vishnu
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/VishnuSanal"
+    - name: twitter
+      url: "https://twitter.com/VishnuSanalT"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/vishnu-sanal-t"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/9652621"
+    - name: googleplay
+      url: "https://play.google.com/store/apps/dev?id=5733306165707047154"
+    - name: gitlab
+      url: "https://gitlab.com/VishnuSanal"
+    - name: dev
+      url: "https://dev.to/vishnusanal"
+    - name: email
+      url: "mailto:t.v.s10123@gmail.com"
+    - name: telegram
+      url: "https://t.me/VishnuSanalT"
+
+  editPost:
+    URL: "https://github.com/VishnuSanal/vishnusanal.github.io/blob/main/content/"
+    Text: "Suggest Changes"
+    appendFilePath: true

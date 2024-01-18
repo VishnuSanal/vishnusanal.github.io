@@ -1,15 +1,15 @@
-+++
-title = "Timed out on OverLeaf? Don't worry, try this!"
-date = "2023-11-19T10:16:27+05:30"
-author = "Vishnu Sanal T"
-authorTwitter = "VishnuSanalT" #do not include @
-cover = "images/overleaf_timed_out_short.png"
-tags = ["", ""]
-keywords = ["overleaf", "timed-out", "ppt", "beamer", "latex"]
-description = "How to workaround compile time exceeded on OverLeaf"
-showFullContent = false
-readingTime = true
-+++
+---
+title: "Timed out on OverLeaf? Don't worry, try this!"
+date: "2023-11-19T10:16:27+05:30"
+author: "Vishnu Sanal T"
+cover:
+    image: "images/overleaf_timed_out_short.png"
+    alt: "overleaf timed out error message"
+    caption: "OhNo, timed out!"
+    relative: false
+keywords: ["overleaf", "timed-out", "ppt", "beamer", "latex"]
+description: "How to workaround compile time exceeded on OverLeaf"
+---
 
 ## What are we up to here?
 

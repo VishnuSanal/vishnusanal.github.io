@@ -1,15 +1,10 @@
-+++
-title = "Binary to Decimal Conversion - Did You Know This?"
-date = 2022-12-18T12:37:26+05:30
-author = "Vishnu Sanal T"
-authorTwitter = "VishnuSanalT"
-cover = ""
-tags = ["", ""]
-keywords = ["binary", "decimal", "conversion", "hack"]
-description = "An easier way to convert a binary number to decimal"
-showFullContent = false
-readingTime = true
-+++
+---
+title: "Binary to Decimal Conversion - Did You Know This?"
+date: 2022-12-18T12:37:26+05:30
+author: "Vishnu Sanal T"
+keywords: ["binary", "decimal", "conversion", "hack"]
+description: "An easier way to convert a binary number to decimal"
+---
 
 # Binary to Decimal Conversion - Did You Know This?
 
