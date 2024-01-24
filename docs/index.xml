@@ -6,8 +6,15 @@
     <description>Recent content on You&#39;re Awesome :)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Nov 2023 10:16:27 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2024 14:58:02 +0530</lastBuildDate>
     <atom:link href="https://vishnusanal.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Script to Complete etLab faculty feedback survey</title>
+      <link>https://vishnusanal.github.io/posts/script-to-complete-etlab-faculty-feedback-survey/</link>
+      <pubDate>Wed, 24 Jan 2024 14:58:02 +0530</pubDate>
+      <guid>https://vishnusanal.github.io/posts/script-to-complete-etlab-faculty-feedback-survey/</guid>
+      <description>Silly script that helps you with etLab surveys</description>
+    </item>
     <item>
       <title>Timed out on OverLeaf? Don&#39;t worry, try this!</title>
       <link>https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/</link>
