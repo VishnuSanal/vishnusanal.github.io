@@ -11,7 +11,7 @@ minify:
 params:
   env: production
   title: You're Awesome :)
-  description: You're Awesome :)
+  description: Vishnu's personal blog.
   keywords: [Blog, Portfolio, PaperMod]
   author: Vishnu Sanal T
   DateFormat: "January 2, 2006"
@@ -34,7 +34,7 @@ params:
 
   homeInfoParams:
     Title: "You're Awesome :)"
-    Content: ... and I'm Vishnu
+    Content: ... and I'm Vishnu! I love Arch Linux, Android development, open-source, and programming in general. If any of these are of interest to you, let's get connected. Or, if you're just surfing around too, drop me a message -- I love talking to new people. :)
 
   socialIcons:
     - name: github
