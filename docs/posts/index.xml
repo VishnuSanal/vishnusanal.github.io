@@ -16,6 +16,13 @@
       <description>Silly script that helps you with etLab surveys</description>
     </item>
     <item>
+      <title>How to Reinstall Grub on Arch Linux</title>
+      <link>https://vishnusanal.github.io/posts/how-to-reinstall-grub-on-arch-linux/</link>
+      <pubDate>Fri, 19 Jan 2024 14:46:17 +0530</pubDate>
+      <guid>https://vishnusanal.github.io/posts/how-to-reinstall-grub-on-arch-linux/</guid>
+      <description>The steps to reinstall grub by chrooting on Arch Linux</description>
+    </item>
+    <item>
       <title>Timed out on OverLeaf? Don&#39;t worry, try this!</title>
       <link>https://vishnusanal.github.io/posts/overleaf-compile-time-limit-exceeded/</link>
       <pubDate>Sun, 19 Nov 2023 10:16:27 +0530</pubDate>
