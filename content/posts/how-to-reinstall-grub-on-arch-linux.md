@@ -51,4 +51,6 @@ Next, you start panicking & call  "that-Linux-friend". If you don't have such a 
 - Reboot
     - `reboot`
 
-This was a short guide on how to reinstall GRUB on an Arch Linux PC. The same should work for all Arch-based OSs (I have tried on EndeavourOS; I can't vouch for others!). Huge shout out to Jazil, Shidul, Akash, Abhiram, Shijaz, and Roshan, my friends -- break more of your bootloaders!! xD
+This was a short guide on how to reinstall GRUB on an Arch Linux PC. Or, a reference document for my future self! :) The same should work for all Arch-based OSs (I have tried on EndeavourOS; I can't vouch for others!). Huge shout out to Jazil, Shidul, Akash, Abhiram, Shijaz, and Roshan, my friends -- break more of your bootloaders!! xD
+
+If you found this useful, share it with someone! Any more tips to add? Ping me! Or, if you're just surfing around here, let's get connected. I love talking to new people. :) You can find me on [GitHub](https://github.com/VishnuSanal), [Twitter](https://twitter.com/VishnuSanalT), and [LinkedIn](https://www.linkedin.com/in/vishnu-sanal-t/).
