@@ -4,7 +4,6 @@ date: 2022-09-02T09:21:00+05:30
 author: Vishnu Sanal T
 keywords: ["DialogMusicPlayer", "DMP", "music", "simple", "minimal"]
 description: "Well, not necessarily a \"failure\", but this is a story about a mistake that caused me to question my existence. ;__;"
-draft: true
 ---
 
 Dramatic title, huh? Originally written to answer "What was your biggest failure?" for an application, I felt like I would share it here, too. :)
