@@ -1,9 +1,9 @@
 ---
-title: "Dialogmusicplayer -- The Whole Story"
+title: "DialogMusicPlayer: the whole story"
 date: 2024-02-17T23:10:11+05:30
 author: Vishnu Sanal T
 keywords: ["DialogMusicPlayer", "DMP", "music", "simple", "minimal"]
-description: "Why I built DialogMusicPlayer & how it's going."
+description: "Why did I build DialogMusicPlayer, and how's it going?"
 ---
 
 [DialogMusicPlayer](https://github.com/VishnuSanal/DialogMusicPlayer) is a simple and minimal music player dialog. It was built out of my frustration with my device’s stock music player requesting unnecessary permissions just to play a music file. The basic version was built within a day on a skeletal level. I thought of DMP as a simple project that would only be used by me on my device. I made the code open source & left it on GitHub.
