@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 17 Feb 2024 23:10:11 +0530</lastBuildDate>
     <atom:link href="https://vishnusanal.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Dialogmusicplayer -- The Whole Story</title>
+      <link>https://vishnusanal.github.io/posts/story-of-dialogmusicplayer/</link>
+      <pubDate>Sat, 17 Feb 2024 23:10:11 +0530</pubDate>
+      <guid>https://vishnusanal.github.io/posts/story-of-dialogmusicplayer/</guid>
+      <description>Why I built DialogMusicPlayer &amp;amp; how it&amp;#39;s going.</description>
+    </item>
+    <item>
       <title>Script to Complete etLab faculty feedback survey</title>
       <link>https://vishnusanal.github.io/posts/script-to-complete-etlab-faculty-feedback-survey/</link>
       <pubDate>Wed, 24 Jan 2024 14:58:02 +0530</pubDate>
