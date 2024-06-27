@@ -25,32 +25,45 @@ Next, you start panicking & call  "that-Linux-friend". If you don't have such a 
 
 - Select the first option from the options to boot into the live environment.
 
-## 3. `chroot`
+## 3. Mount partitions
 
 - check your disk partition table with `fdisk`
     - `fdisk -l`
-- mount your root partition onto `\mnt` (usually the largest partition)
-    - `mount \dev\<your-root-partition \mnt` 
-- mount your EFI partition onto `\mnt\boot` (usually the one 512MB in size)
-    - `mount \dev\<your-efi-partition \mnt\boot`
+- mount your root partition onto `/mnt` (usually the largest partition)
+    - `mount /dev/<your-root-partition /mnt` 
+- mount your EFI partition onto `/mnt/boot` (usually the one 512MB in size)
+    - `mount /dev/<your-efi-partition /mnt/boot`
+        - (or `/mnt/boot/efi` according to your installation)
 
-## 4. Reinstall GRUB
+## 4. `chroot`
+
+- chroot onto your root
+    - `arch-chroot /mnt`
+
+## 5. Reinstall GRUB
 
 - Verify you have a UEFI boot (if the command shows some output, then you are good to go)
     - `efibootmgr -uv`
-- Create the config file
-    - `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 - Install GRUB
     - `sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUBNEW`
+- Create the config file
+    - `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 
-## 5. Unmount & Reboot
+## 6. Exit, Unmount & Reboot
 
+- Exit from chroot
+    - `exit`
 - Unmount
-    - `umount \mnt\boot`
-    - `umount \mnt`
+    - `umount -R /mnt`
 - Reboot
     - `reboot`
 
-This was a short guide on how to reinstall GRUB on an Arch Linux PC. Or, a reference document for my future self! :) The same should work for all Arch-based OSs (I have tried on EndeavourOS; I can't vouch for others!). Huge shout out to Jazil, Shidul, Akash, Abhiram, Shijaz, and Roshan, my friends -- break more of your bootloaders!! xD
+This was a short guide on how to reinstall GRUB on an Arch Linux PC. Or, a reference document for my future self! :) The same should work for all Arch-based OSs (I have tried on EndeavourOS; I can't vouch for others!).
 
-If you found this useful, share it with someone! Any more tips to add? Ping me! Or, if you're just surfing around here, let's get connected. I love talking to new people. :) You can find me on [GitHub](https://github.com/VishnuSanal), [Twitter](https://twitter.com/VishnuSanalT), and [LinkedIn](https://www.linkedin.com/in/vishnu-sanal-t/).
+Huge shout out to Jazil, Shidul, Akash, Abhiram, Shijaz, and Roshan; friends -- break more of your bootloaders!! xD
+
+Found this useful? Share with someone in need! Any more tips to add? Ping me!
+
+Or, if you're just surfing around here, let's get connected. I love talking to new people. :)
+
+Find me on [GitHub](https://github.com/VishnuSanal), [Twitter](https://twitter.com/VishnuSanalT), or [LinkedIn](https://www.linkedin.com/in/vishnu-sanal-t/).
