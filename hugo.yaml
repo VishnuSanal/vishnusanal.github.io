@@ -42,6 +42,8 @@ params:
       url: "https://github.com/VishnuSanal"
     - name: twitter
       url: "https://twitter.com/VishnuSanalT"
+    - name: mastodon
+      url: "https://fosstodon.org/@VishnuSanal"
     - name: linkedin
       url: "https://www.linkedin.com/in/vishnu-sanal-t"
     - name: stackoverflow

@@ -102,5 +102,3 @@ Well, see how easy it is! You can use the following binary numbers to practice:
   - 010101001101
 
 A massive shout-out to Prof. Soni for sharing this little hack with us! If you found this useful, share it with some computer science enthusiasts or flex this trick in your next class! Or if you're just surfing around here, drop me a message - I love talking to new people :) You can find me [here](https://github.com/VishnuSanal), [here](https://twitter.com/VishnuSanalT) & [here](https://www.linkedin.com/in/vishnu-sanal-t/).
-
-:D
