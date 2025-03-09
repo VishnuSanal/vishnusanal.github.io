@@ -63,6 +63,19 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+{{- if (strings.Contains .RelPermalink "projects/") }} <!-- special projects page -->
+<article class="{{ $class }}">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+      {{- .Title }}
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>{{ .Param "description" }}</p>
+  </div>
+  <a class="entry-link" aria-label="link to project {{ .Title | plainify }}" href="{{ .Param "link" }}"></a>
+</article>
+{{- else }}
 <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
@@ -91,6 +104,7 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+{{- end }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
