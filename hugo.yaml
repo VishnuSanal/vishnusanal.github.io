@@ -8,6 +8,11 @@ minify:
   disableXML: true
   minifyOutput: true
 
+menu:
+   main:
+    - name: 📌 Things I've built
+      url: projects/
+
 params:
   env: production
   title: You're Awesome :)
