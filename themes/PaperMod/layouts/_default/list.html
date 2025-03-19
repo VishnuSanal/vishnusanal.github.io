@@ -63,7 +63,11 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{- if (strings.Contains .RelPermalink "projects/") }} <!-- special projects page -->
+<!-- {{ printf "%#v" $.IsHome }} -->
+
+<!-- if (strings.Contains .RelPermalink "projects") -->
+
+{{- if not $.IsHome }} <!-- special projects page -->
 <article class="{{ $class }}">
   <header class="entry-header">
     <h2 class="entry-hint-parent">
@@ -72,6 +76,9 @@
   </header>
   <div class="entry-content">
     <p>{{ .Param "description" }}</p>
+  </div>
+  <div class="chip-container">
+    <p>{{- range $i, $e := .Params.tags }}<p class="chip">{{ $e }}</p>{{ end }}</p>
   </div>
   <a class="entry-link" aria-label="link to project {{ .Title | plainify }}" href="{{ .Param "link" }}"></a>
 </article>
