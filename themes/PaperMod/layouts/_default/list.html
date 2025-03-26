@@ -63,26 +63,6 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<!-- {{ printf "%#v" $.IsHome }} -->
-
-<!-- if (strings.Contains .RelPermalink "projects") -->
-
-{{- if not $.IsHome }} <!-- special projects page -->
-<article class="{{ $class }}">
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-      {{- .Title }}
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>{{ .Param "description" }}</p>
-  </div>
-  <div class="chip-container">
-    <p>{{- range $i, $e := .Params.tags }}<p class="chip">{{ $e }}</p>{{ end }}</p>
-  </div>
-  <a class="entry-link" aria-label="link to project {{ .Title | plainify }}" href="{{ .Param "link" }}"></a>
-</article>
-{{- else }}
 <article class="{{ $class }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
@@ -111,7 +91,6 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
-{{- end }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}

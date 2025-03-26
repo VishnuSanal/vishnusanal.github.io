@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ $data := index .Site.Data "projects" }}
+
+  <ul>
+    {{ range $data.projects }}
+      <li>
+        <a href="{{ .link }}"><strong>{{ .title }}</strong></a> - {{ .description }}
+      </li>
+    {{ end }}
+  </ul>
+
+{{ end }}
