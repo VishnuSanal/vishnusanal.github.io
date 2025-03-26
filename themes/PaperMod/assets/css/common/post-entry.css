@@ -126,11 +126,11 @@
 }
 
 .project-card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
+  margin-bottom: var(--gap);
+  padding: var(--gap);
+  background: var(--entry);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
   transition: transform 0.2s ease-in-out;
   align-content: center;
 }
@@ -150,21 +150,10 @@
   font-weight: bold;
 }
 
-.project-link-icon {
-  font-size: 18px;
-  text-decoration: none;
-  color: #007bff;
-  transition: color 0.2s;
-}
-
-.project-link-icon:hover {
-  color: #0056b3;
-}
-
 .project-description {
   margin-top: 10px;
   font-size: 0.95rem;
-  color: #444;
+  color: var(--secondary);
 }
 
 .project-tags {
@@ -173,8 +162,8 @@
 
 .project-tag {
   display: inline-block;
-  background: #e0e0e0;
-  color: #333;
+  background-color: var(--code-bg);
+  color: var(--content);
   padding: 6px 12px;
   border-radius: 15px;
   font-size: 12px;
