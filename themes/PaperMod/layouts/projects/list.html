@@ -1,14 +1,27 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+<h1>{{ .Title }}</h1>
 
-  {{ $data := index .Site.Data "projects" }}
+{{ $data := index .Site.Data "projects" }}
 
-  <ul>
-    {{ range $data.projects }}
-      <li>
-        <a href="{{ .link }}"><strong>{{ .title }}</strong></a> - {{ .description }}
-      </li>
-    {{ end }}
-  </ul>
+<div class="">
+  {{ range $data.projects }}
+    <article class="post-entry tag-entry">
+      <header class="entry-header">
+        <h2 class="entry-hint-parent">{{- .title }}</h2>
+      </header>
+      <div class="entry-content">
+        <p>
+          {{ .description | plainify | htmlUnescape }}{{ if .Truncated }}...{{
+          end }}
+        </p>
+      </div>
+      <a
+        class="entry-link"
+        aria-label="post link to {{ .title | plainify }}"
+        href="{{ .link }}"
+      ></a>
+    </article>
+  {{ end }}
+</div>
 
 {{ end }}
