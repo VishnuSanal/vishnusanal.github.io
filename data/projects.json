@@ -1,6 +1,54 @@
 {
   "projects": [
     {
+      "title": "WhatsAppCleaner",
+      "description": "Cleaner for WhatsApp - Clean WhatsApp's Redundant Media Files from Storage",
+      "link": "https://github.com/VishnuSanal/WhatsAppCleaner",
+      "tags": ["android", "kotlin"]
+    },
+    {
+      "title": "RemindMe!",
+      "description": "Set alarms for a specific date in the future (alarm, not a reminder!)",
+      "link": "https://github.com/VishnuSanal/RemindMe",
+      "tags": ["android", "kotlin"]
+    },
+    {
+      "title": "DialogMusicPlayer",
+      "description": "A simple and minimal music player dialog :)",
+      "link": "https://github.com/VishnuSanal/DialogMusicPlayer",
+      "tags": ["android", "java", "kotlin"]
+    },
+    {
+      "title": "GeethLe",
+      "description": "GeethLe makes sharing music easy! Search for any song from anywhere with geethle.me/ and instantly get a permalink to the song along with a thumbnail with metadata. It’ll redirect you to your favorite music provider, saving time when sharing tracks.",
+      "link": "https://geethle.me",
+      "tags": ["python", "flask"]
+    },
+    {
+      "title": "Quotes Status Creator",
+      "description": "Quotes lets you share quotations as status images on social media",
+      "link": "https://github.com/VishnuSanal/Quotes",
+      "tags": ["android", "java", "kotlin"]
+    },
+    {
+      "title": "WiFi ARP Server",
+      "description": "A simple project to ease the procedure to connect to my college WiFi.",
+      "link": "https://github.com/VishnuSanal/WiFiARPServer",
+      "tags": ["python", "flask", "scapy"]
+    },
+    {
+      "title": "GitHub Dashboard Feed",
+      "description": "GitHub Dashboard Feed in your Terminal!",
+      "link": "https://github.com/VishnuSanal/GitHubDashboardFeed",
+      "tags": ["cli", "rust"]
+    },
+    {
+      "title": "Eye Care Reminder",
+      "description": "A simple toy project to remind you to take 20/20/20 breaks for your eye health",
+      "link": "https://github.com/VishnuSanal/eye_care_reminder",
+      "tags": ["python", "shell", "PyQt6"]
+    },
+    {
       "title": "vishnusanal.github.io",
       "description": "You're Awesome :)",
       "link": "vishnusanal.github.io",
@@ -13,30 +61,6 @@
       "tags": ["cli", "go"]
     },
     {
-      "title": "DialogMusicPlayer",
-      "description": "A simple and minimal music player dialog :)",
-      "link": "https://github.com/VishnuSanal/DialogMusicPlayer",
-      "tags": ["android", "java", "kotlin"]
-    },
-    {
-      "title": "Eye Care Reminder",
-      "description": "A simple toy project to remind you to take 20/20/20 breaks for your eye health",
-      "link": "https://github.com/VishnuSanal/eye_care_reminder",
-      "tags": ["python", "shell", "PyQt6"]
-    },
-    {
-      "title": "GitHub Dashboard Feed",
-      "description": "GitHub Dashboard Feed in your Terminal!",
-      "link": "https://github.com/VishnuSanal/GitHubDashboardFeed",
-      "tags": ["cli", "rust"]
-    },
-    {
-      "title": "GeethLe",
-      "description": "GeethLe makes sharing music easy! Search for any song from anywhere with geethle.me/ and instantly get a permalink to the song along with a thumbnail with metadata. It’ll redirect you to your favorite music provider, saving time when sharing tracks.",
-      "link": "https://geethle.me",
-      "tags": ["python", "flask"]
-    },
-    {
       "title": "GHFetch",
       "description": "This script uses the GitHub API to fetch recent activity of any user",
       "link": "https://github.com/VishnuSanal/GHFetch",
@@ -47,30 +71,6 @@
       "description": "NotifDict is the most simple & the most minimalistic dictionary you can find!",
       "link": "https://github.com/VishnuSanal/NotifDict",
       "tags": ["android", "kotlin", "java"]
-    },
-    {
-      "title": "Quotes Status Creator",
-      "description": "Quotes lets you share quotations as status images on social media",
-      "link": "https://github.com/VishnuSanal/Quotes",
-      "tags": ["android", "java", "kotlin"]
-    },
-    {
-      "title": "RemindMe!",
-      "description": "Set alarms for a specific date in the future (alarm, not a reminder!)",
-      "link": "https://github.com/VishnuSanal/RemindMe",
-      "tags": ["android", "kotlin"]
-    },
-    {
-      "title": "WhatsAppCleaner",
-      "description": "Cleaner for WhatsApp - Clean WhatsApp's Redundant Media Files from Storage",
-      "link": "https://github.com/VishnuSanal/WhatsAppCleaner",
-      "tags": ["android", "kotlin"]
-    },
-    {
-      "title": "WiFi ARP Server",
-      "description": "A simple project to ease the procedure to connect to my college WiFi.",
-      "link": "https://github.com/VishnuSanal/WiFiARPServer",
-      "tags": ["python", "flask", "scapy"]
     }
   ]
 }
