@@ -106,6 +106,10 @@
     height: auto;
 }
 
+.cards-container {
+    margin-top: 32px;
+}
+
 .entry-cover a {
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
@@ -120,7 +124,7 @@
     align-items: center;
     padding: 4px 12px;
     border-radius: 16px;
-    gap: 10px;
+    margin: 4px;
     background-color: var(--code-bg);
     color: var(--content);
     font-size: 12px;

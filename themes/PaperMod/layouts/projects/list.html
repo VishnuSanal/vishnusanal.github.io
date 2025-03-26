@@ -3,7 +3,7 @@
 
 {{ $data := index .Site.Data "projects" }}
 
-<div class="">
+<div class="cards-container">
   {{ range $data.projects }}
     <article class="post-entry tag-entry">
       <header class="entry-header">
@@ -14,6 +14,9 @@
           {{ .description | plainify | htmlUnescape }}{{ if .Truncated }}...{{
           end }}
         </p>
+      </div>
+      <div class="chip-container">
+        <p>{{- range $i, $e := .tags }}<p class="chip">{{ $e }}</p>{{ end }}</p>
       </div>
       <a
         class="entry-link"
